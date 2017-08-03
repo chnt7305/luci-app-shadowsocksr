@@ -72,7 +72,7 @@ GFW-List模式正常使用需要依赖 [dnsmasq-extra][openwrt-dnsmasq-extra], �
 tar xjf OpenWrt-SDK-ar71xx-for-linux-x86_64-gcc-4.8-linaro_uClibc-0.9.33.2.tar.bz2
 cd OpenWrt-SDK-ar71xx-*
 # Clone 项目
-git clone https://github.com/chenhw2/luci-app-shadowsocksr.git package/feeds/luci-app-shadowsocksr
+git clone https://github.com/chnt7305/luci-app-shadowsocksr.git package/feeds/luci-app-shadowsocksr
 # 编译 po2lmo (如果有po2lmo可跳过)
 pushd package/feeds/luci-app-shadowsocksr/tools/po2lmo
 make && sudo make install
